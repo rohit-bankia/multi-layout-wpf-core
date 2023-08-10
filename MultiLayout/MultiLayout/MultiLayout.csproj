@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\20131114114358.jpg" />
+    <None Remove="Images\download %281%29.jpeg" />
+    <None Remove="Images\download.jpeg" />
+    <None Remove="Images\OIP.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\download (1).jpeg" />
+    <Resource Include="Images\download.jpeg" />
+    <Resource Include="Images\OIP.jpeg" />
+  </ItemGroup>
+
+</Project>
